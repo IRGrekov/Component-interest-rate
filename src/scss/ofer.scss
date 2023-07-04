@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.form {
+  font-family: "Lato", sans-serif;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 12px;
+    width: 343px;
+    background: #ffffff;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+  }
+
+  &__title-wrapper {
+    width: 100%;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  &__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__icon {
+  }
+
+  &__topFeature {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 4px;
+    background: #3ac500;
+    border-radius: 4px;
+    color: #ffffff;
+    margin-right: 8px;
+  }
+
+  &__topFeature1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 4px;
+    background: #d17314;
+    border-radius: 4px;
+    color: #ffffff;
+    margin-right: 8px;
+  }
+
+  &__topFeature2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 4px;
+    background: #144dd1;
+    border-radius: 4px;
+    color: #ffffff;
+    margin-right: 8px;
+  }
+
+  &__topFeature-icon {
+  }
+
+  &__topFeature-text {
+  }
+
+  &__rating {
+    padding: 2px 8px;
+    border: 1px solid rgba(4, 104, 255, 0.1);
+    border-radius: 4px;
+    color: #0468ff;
+  }
+
+  &__rating-text {
+  }
+
+  &__calculations {
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+  }
+  &__calculations:last-child {
+    margin-right: 0;
+  }
+
+  &__calculations:first-child {
+    width: 77px;
+  }
+
+  &__calculations-subtext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737a8e;
+  }
+
+  &__calculations-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    padding: 9px 16px;
+    gap: 6px;
+    background: #0468ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+  }
+}

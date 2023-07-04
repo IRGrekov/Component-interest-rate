@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  font-family: "Lato", sans-serif;
+}
+.form__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+  width: 343px;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+.form__item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+}
+.form__title-wrapper {
+  width: 100%;
+}
+.form__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+.form__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.form__topFeature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px 8px;
+  gap: 4px;
+  background: #3ac500;
+  border-radius: 4px;
+  color: #ffffff;
+  margin-right: 8px;
+}
+.form__topFeature1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px 8px;
+  gap: 4px;
+  background: #d17314;
+  border-radius: 4px;
+  color: #ffffff;
+  margin-right: 8px;
+}
+.form__topFeature2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px 8px;
+  gap: 4px;
+  background: #144dd1;
+  border-radius: 4px;
+  color: #ffffff;
+  margin-right: 8px;
+}
+.form__rating {
+  padding: 2px 8px;
+  border: 1px solid rgba(4, 104, 255, 0.1);
+  border-radius: 4px;
+  color: #0468ff;
+}
+.form__calculations {
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px;
+}
+.form__calculations:last-child {
+  margin-right: 0;
+}
+.form__calculations:first-child {
+  width: 77px;
+}
+.form__calculations-subtext {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737a8e;
+}
+.form__calculations-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+.form__button {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  flex-direction: row;
+  align-items: center;
+  padding: 9px 16px;
+  gap: 6px;
+  background: #0468ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+}
